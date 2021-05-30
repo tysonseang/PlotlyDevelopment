@@ -53,6 +53,8 @@ function buildMetadata(sample) {
   });
 }
 
+
+
 // Deliverable 1
 // Bar chart
 
@@ -99,8 +101,6 @@ function buildCharts(sample) {
 // Deliverable 2
 // Bubble chart
 
-
-
     // 1. Create the trace for the bubble chart.
     var bubbleData = [{
       x: ids,
@@ -121,6 +121,8 @@ function buildCharts(sample) {
     // 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout);
  
+
+
   // Deliverable 3
   // Gauge chart
 
@@ -131,7 +133,6 @@ function buildCharts(sample) {
 
       // 2. Create a variable that holds the first sample in the metadata array.
     var gaugeResult = gaugeArray[0];
-
 
     // 3. Create a variable that holds the washing frequency.
     var wfreq = gaugeResult.wfreq;
